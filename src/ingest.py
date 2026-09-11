@@ -93,17 +93,17 @@ def read_all_data(list_of_files=None):
     return data
 
 
-if __name__ == "__main__":
-    all_files = get_all_files()
-    data_chunks = read_all_data(all_files)
+# if __name__ == "__main__":
+#     all_files = get_all_files()
+#     data_chunks = read_all_data(all_files)
 
-    # import re
-    # for f in set(d['file_name'] for d in data):
-    #     sample = ' '.join(d['data'] for d in data if d['file_name']==f and d['method'] != 'table')
-    #     weird = re.findall(r'[^\x00-\x7F]', sample)
-    #     print(f, set(weird))
+#     # import re
+#     # for f in set(d['file_name'] for d in data):
+#     #     sample = ' '.join(d['data'] for d in data if d['file_name']==f and d['method'] != 'table')
+#     #     weird = re.findall(r'[^\x00-\x7F]', sample)
+#     #     print(f, set(weird))
 
-    # print(f"Total pages extracted: {len(data)}")
-    # from collections import Counter
-    # print(Counter(d['file_name'] for d in data))
-    # print(Counter(d['method'] for d in data))
+#     # print(f"Total pages extracted: {len(data)}")
+#     # from collections import Counter
+#     # print(Counter(d['file_name'] for d in data))
+#     # print(Counter(d['method'] for d in data))

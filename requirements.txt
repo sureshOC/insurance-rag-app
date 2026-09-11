@@ -1,0 +1,27 @@
+# Web Framework & Server
+fastapi
+uvicorn
+python-multipart
+
+# RAG & ML Frameworks
+langchain
+langchain-core
+langchain-ollama
+langchain-openai
+langchain_text_splitters
+langgraph
+fastembed
+sentence-transformers
+qdrant-client
+
+# Document Parsing
+pymupdf
+pdf2image
+pytesseract
+pillow
+ftfy
+
+# Base Utilities
+pydantic
+python-dotenv
+httpx

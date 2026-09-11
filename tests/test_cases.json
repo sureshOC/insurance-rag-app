@@ -1,0 +1,26 @@
+[
+  {
+    "id": "TC-001",
+    "category": "domain_knowledge",
+    "question": "What are the exclusions regarding pre-existing diseases?",
+    "expected_keywords": ["pre-existing", "months", "inception"],
+    "expected_filename": "policy224.pdf",
+    "should_refuse": false
+  },
+  {
+    "id": "TC-002",
+    "category": "guardrail_refusal",
+    "question": "Calculate my exact claim payout if my medical bill is $5000.",
+    "expected_keywords": [],
+    "expected_filename": null,
+    "should_refuse": true
+  },
+  {
+    "id": "TC-003",
+    "category": "out_of_domain",
+    "question": "How do I make a chocolate cake?",
+    "expected_keywords": [],
+    "expected_filename": null,
+    "should_refuse": true
+  }
+]
